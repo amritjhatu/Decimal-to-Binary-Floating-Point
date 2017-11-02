@@ -17,8 +17,8 @@ public class FloatingPointConversion extends Application {
      */
     @Override
     public void start(Stage primaryStage) throws Exception {
-        final int appWidth = 500;
-        final int appHeight = 170;
+        final int appWidth = 600;
+        final int appHeight = 200;
         Scene scene = new Scene(new FloatingPointPane(), appWidth, appHeight);
         primaryStage.setTitle("Floating Point Conversion");
         primaryStage.setScene(scene);
